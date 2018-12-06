@@ -1,0 +1,185 @@
+<div id="wrapper" class="clearfix">
+  <div id="top-bar">
+    <div class="container clearfix">
+    <div class="col_half fright d-md-block nobottommargin">
+    
+      <div class="top-links">
+        <ul class="sf-js-enabled clearfix" style="touch-action: pan-y;">
+          <li><i class="fab fa-whatsapp"></i> 9874561230&nbsp;&nbsp;</li>
+          <li> <i class="fas fa-phone"></i> +91-800-9876-221</li>
+          <li>
+     <a href="http://maps.google.com/?q=Hyderabad Cancer Centre, 10-76, Sowbhagya Nagar, Opposite IDPL colony Bus Stop, Balanagar, Hyderabad, Telangana 500037" style="text-decoration: none" target="_blank">
+
+            <i class="fa fa-map-marker"></i> 
+            location
+          </a>
+        </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+    <header id="header" class="">
+        <div id="header-wrap" class="">
+        <div class="container clearfix">
+            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+           <div id="logo">
+             <img src="assets/logo.jpeg" alt="HCC logo">
+           </div>
+           <!-- Static navbar -->
+
+  
+           <nav class="navbar navbar-expand-lg navbar-light ">
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" routerLink="/" routerLinkActive="active">
+                        <div style="display: block;    white-space: nowrap;    font-size: 20px;">
+                      HOME <span class="sr-only">(current)</span>
+                    </div>
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" routerLink="/About" routerLinkActive="active">
+                        <div style="display: block;    white-space: nowrap;    font-size: 20px;">
+                          ABOUT US
+                        </div>
+                       </a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  routerLink="/Contact" routerLinkActive="active">
+                        <div style="display: block;    white-space: nowrap;    font-size: 20px;">CONTACT US
+                        </div></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" href="#">
+                          <!-- <div class="dropdown"> -->
+                              <div  style="display: block;    white-space: nowrap;    font-size: 20px;" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                DEPARTMENTS
+                              </div>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" routerLink="/dept_onc" routerLinkActive="active">ONCOLOGY</a>
+                                <a class="dropdown-item" routerLink="/dept_gync" routerLinkActive="active">GYNAECOLOGY</a>  <!-- </div> -->
+                            </div>
+                        
+                        </a>
+                     
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">
+                            <!-- <div class="dropdown"> -->
+                                <div  style="display: block;    white-space: nowrap;    font-size: 20px;" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  DIAGNOSIS
+                                </div>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">X-RAY</a>
+                                  <a class="dropdown-item" href="#">CBP</a>  <!-- </div> -->
+                              </div>
+                          
+                          </a>
+                       
+                      </li>
+                
+                
+                </ul>
+              </div>
+            </nav>
+          </div>
+         
+        </div>
+        </header>
+        <section id="slider" class="slider-element swiper_wrapper full-screen clearfix" data-loop="true" data-autoplay="5000" >
+            <router-outlet></router-outlet>
+                <div class="sticky-popup sticky-popup-left open_sticky_popup_right" style="left:0px;width:3%; visibility: visible;">
+                    <div class="popup-wrap ieundefined">
+                        <div class="popup-header" >
+                        <div class="icon-bar">
+                            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> 
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> 
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a> 
+                            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                          </div>
+                    </div>
+                </div>
+               
+          <div class="sticky-popup sticky-popup-right open_sticky_popup_right" style="right: -317px; visibility: visible;">
+              <div class="popup-wrap ieundefined">
+                <div class="popup-header" data-toggle="modal" data-target="#myModal">
+                  <span class="popup-title" >
+                    &nbsp;A
+                    <br> &nbsp;P
+                    <br> &nbsp;P
+                    <br> &nbsp;O
+                    <br> &nbsp;I
+                    <br> &nbsp;N
+                    <br> &nbsp;T
+                    <br> &nbsp;M
+                    <br> &nbsp;E
+                    <br> &nbsp;N
+                    <br> &nbsp;T
+            
+                  </span>
+                </div>
+                  <!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title" >Book Your Appointment</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group row">
+                              <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                              <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="inputPassword3" class="col-sm-2 col-form-label">Mobile</label>
+                              <div class="col-sm-10">
+                                <input type="number" class="form-control" id="inputPassword3" placeholder="Mobile">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                  <input type="email" class="form-control" id="inputPassword3" placeholder="Email">
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                  <label for="inputPassword3" class="col-sm-2 col-form-label">DOB</label>
+                                  <div class="col-sm-10">
+                                    <input type="date" class="form-control" id="inputPassword3" placeholder="DOB">
+                                  </div>
+                                </div>
+                               
+                        
+                            <div class="form-group row">
+                              <div class="col-sm-10">
+                                <button type="submit" class="sample btn btn-primary" >Submit</button>
+                              </div>
+                            </div>
+                          </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              </div>
+            </div>
+           
+          </section>
+</div>

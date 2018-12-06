@@ -1,0 +1,167 @@
+@media (min-width: 1200px)
+{
+    .container {
+        max-width: 1170px;
+    }
+    .col_half{
+        display: block;
+            position: relative;
+            margin-right: -68%;
+            margin-bottom: 50px;
+            float: left;
+        }
+       
+}
+
+@media (min-width: 992px)
+{
+.container {
+    max-width: 970px;
+}
+.col_half{
+    display: block;
+        position: relative;
+        margin-right: 4%;
+        margin-bottom: 50px;
+        float: left;
+    }
+}.fright {
+    float: right!important;
+}
+@media (min-width: 768px)
+{
+.container {
+    max-width: 750px;
+}
+.col_half{
+    display: block;
+        position: relative;
+        margin-right: 4%;
+        margin-bottom: 50px;
+        float: left;
+    }
+    
+}
+  
+@media only screen and (max-width:600px)
+{
+
+    
+    .swiper_wrapper .slider-caption h2 {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 0;
+        color: #222;
+        text-shadow: none;
+        margin-left: 190px;
+        margin-top: 50px;
+        white-space: nowrap;
+    }
+    .swiper_wrapper  .slider-button button
+{
+margin-left: 210px;
+         margin-top: 27px;
+}
+}
+@media (max-width: 576px)
+{
+/* .container {
+    max-width: 540px;
+} */
+
+    ul{
+        margin-left: -172px;
+        margin-top: 32px;
+    }
+    .swiper-slide[_ngcontent-c1] {
+        height: 167px;
+    }
+    
+}
+
+@media (min-width: 992px)
+{
+.container {
+    max-width: 960px;
+}
+.col_half{
+    display: block;
+        position: relative;
+        margin-right: 4%;
+        margin-bottom: 50px;
+        float: left;
+    }
+}
+.swiper-slide
+{
+    height: 500px;
+}
+.slider-element, .slider-parallax {
+    position: relative;
+}
+.swiper_wrapper .swiper-container {
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+    margin: 0;
+   
+}
+.swiper-wrapper {
+    box-sizing: border-box;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.swiper_wrapper .swiper-slide {
+    position: relative;
+    margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-caption h2 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+   
+     
+    
+    
+}
+.slider-button button
+{
+margin-left: 708px;
+         margin-top: 71px;
+}
+.slider-caption:not(.dark) h2 {
+    color: #222;
+    text-shadow: none;
+    margin-left: 502px;
+    margin-top: 120px;
+    white-space: nowrap;
+    
+}
+.image-owl
+{
+    font-size:60px;
+    color:orange;
+   
+    
+}
+.dep-image{
+    transition: transform .2s;
+}
+.dep-image:hover{
+    transform: scale(1.5);
+}

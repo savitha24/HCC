@@ -1,0 +1,38 @@
+h1{
+    margin-right: 160px;
+    margin-top: 138px;
+    /* padding-left: 285px; */
+    float: right;
+    text-align: center;
+    color: #00128b;
+}
+.titleimage
+{
+    background-image: linear-gradient(#e0e5ea, #3a619b);
+}
+h3
+{
+    /* text-align: center; */
+    font-weight: 500;
+    color: #f5821f;
+}
+.content
+{
+    margin-bottom: 35px;width:55.666667%;
+    float:right;    
+    padding-left: 0;
+    padding-right: 0;
+}
+.leftimg
+{
+    width: 44.33333333%;
+    float: left;   
+     padding-left: 0;
+    padding-right: 0;
+}
+
+p{
+    text-align: justify;   
+     font-size: 16px;
+    line-height: 30px;
+}
